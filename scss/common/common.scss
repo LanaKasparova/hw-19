@@ -1,0 +1,10 @@
+.container{
+  max-width: $container;
+  padding: $padding-sides;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
