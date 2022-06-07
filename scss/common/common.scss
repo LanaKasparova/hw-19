@@ -1,10 +1,18 @@
+* {
+  font-family: $main-font;
+}
 .container{
   max-width: $container;
   padding: $padding-sides;
+  width: 100%;
   margin: 0 auto;
 }
-.row{
+.row {
   display: flex;
-  gap: 200px;
-  justify-content: center;
+}
+.col{
+  width: 100%;
+}
+.d-flex{
+  display: flex;
 }

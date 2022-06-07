@@ -1,6 +1,6 @@
-@import "reset";
-@import "fonts";
+@import "__reset";
+@import "__fonts";
 @import "variables";
+@import "common";
 @import "extends";
 @import "mixins";
-@import "common";

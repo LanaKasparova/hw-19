@@ -12,27 +12,35 @@
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="header__search">
-            <div class="header__logo">
-                <img src="../assets/icons/logo.svg" alt="logo">
-            </div>
-            <div class="header__search-bar">
+            <div class="col header__search d-flex">
+                <div class="header__logo">
+                    <img src="../assets/icons/logo.svg" alt="logo">
+                </div>
+            <div class="header__search-bar d-flex">
                 <img src="../assets/icons/zoom.svg" alt="zoom">
                 <input type="search" id="search" placeholder="Search store">
                 <label for="search"></label>
             </div>
             </div>
-            <div class="header__nav">
-                <ul class="header__menu">
+            <div class="col header__navigation d-flex">
+                <div class="header__hamburger-menu">
+                <input id="header__menu-toggle" type="checkbox"/>
+                <label class="header__menu-btn" for="header__menu-toggle">
+                </label>
+                </div>
+                <nav class="header__menu">
+                    <ul class="d-flex">
                     <li><a href="#" class="active">products</a></li>
                     <li><a href="#">story</a></li>
                     <li><a href="#">manufacturing</a></li>
                     <li><a href="#">packaging</a></li>
-                </ul>
-                <div class="header__user-elements">
+                    </ul>
+                </nav>
+                <div class="header__user-elements d-flex">
                     <img src="../assets/icons/basket.svg" alt="basket">
                     <img src="../assets/icons/person.svg" alt="person">
                 </div>
+
             </div>
         </div>
     </div>
